@@ -3,7 +3,7 @@
 
 ## How to use
 
-#### This is the CV site for Benjam.Tech. Accessible from [cv.benjam.tech](https://github.com/benjamtech/BenjamTechCV)
+#### This is the CV site for Benjam.Tech. Accessible from [cv.benjam.tech](https://cv.benjam.tech)
 
 To access the page. Please type in your password. Only selected people will be receiving the password. 
 
