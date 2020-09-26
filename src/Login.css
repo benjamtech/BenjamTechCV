@@ -1,0 +1,33 @@
+.loginPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-color: var(--background-color);
+}
+
+.loginPage form {
+  background-color: var(--input-bg-color);
+  border-radius: 4px;
+}
+
+.loginPage form input {
+  background-color: transparent;
+  border: 0;
+  padding: 14px;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 400px) {
+  .loginPage form input {
+    font-size: 14px !important;
+  }
+}
+
+.loginPage form input[type="submit"] {
+  cursor: pointer;
+  color: var(--text-color);
+  border-left: 4px solid var(--primary-color);
+}

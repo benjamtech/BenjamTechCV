@@ -1,0 +1,71 @@
+
+
+.mainPage {
+    background-color: #275B83;
+    height: calc(100vh - 60px);
+    width: 100vw;
+    max-height: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
+    overflow-x: none;
+    overflow-y: none;
+}
+
+.mainPage .centeredBox {
+    width: 90vw;
+    background-color: #e3e3e3;
+    border-radius: 12px;
+    max-width: 970px;
+    box-shadow: 9px 9px 15px -3px rgba(0,0,0,0.71);
+    overflow-y: auto;
+}
+
+.mainPage .textBox {
+    display: flex;
+    justify-content: center;
+}
+
+.mainPage h1 {
+    margin: 0px;
+    font-size: 27px;
+    font-weight: 500;
+}
+
+.mainPage h2 {
+    margin: 0px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.mainPage p {
+    margin: 10px 0px;
+    font-size: 18px;
+}
+
+.mainPage a {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.mainPage .contentBox {
+    margin-right: 70px;
+    margin-left: 70px;
+    padding: 40px;
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.mainPage .contentBox img {
+    padding: 0;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    user-select: none;
+}
+
+.mainPage .firstBox {
+    display: flex;
+    justify-content: space-between;
+}

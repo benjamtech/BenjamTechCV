@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+:root {
+  --text-color: #1D3A58;
+  --text-bg-color: #BEF8FD;
+
+  --background-color: #0A6C74;
+
+  --primary-color: #0E7C86;
+  --primary-text-color: #E0FCFF;
+
+  --input-bg-color: #E8E6E1;
+}
+
+.row {
+    display: flex;
+    flex-direction: row; 
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
