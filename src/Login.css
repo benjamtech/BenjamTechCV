@@ -31,3 +31,7 @@
   color: var(--text-color);
   border-left: 4px solid var(--primary-color);
 }
+
+.loginPage .wrong {
+  border: 5px solid red;
+}
